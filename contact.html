@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Jessica Payne Photography</title>
+    <title>Contact | Jessica Payne Photography</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link to the external styles.css file -->
 </head>
 <body>
 
     <header>
-        <h1>Contact Jessica Payne Photography</h1>
-        <p>Reach out to us for inquiries and bookings.</p>
+        <h1>Jessica Payne Photography</h1>
+        <p>Capturing Moments, Creating Memories</p>
     </header>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
+        <!-- Portfolio tab with dropdown -->
+        <div class="dropdown">
+            <a href="portfolio.html">Portfolio</a>
+            <div class="dropdown-content">
+                <a href="portfolio.html#maternity">Maternity</a>
+                <a href="portfolio.html#newborn">Newborn</a>
+                <a href="portfolio.html#graduation">Graduation</a>
+                <a href="portfolio.html#family">Family</a>
+                <a href="portfolio.html#portraits">Portraits</a>
+                <a href="portfolio.html#large-group">Large Group</a>
+            </div>
+        </div>
+        <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
     </nav>
 
     <section id="contact">
         <h2>Contact Us</h2>
+        <h3>For appointments and questions please call.</h3>
+        <p>Phone: (479)644-8598</p>
+        <h3>Hours vary based on availablity.</h3>
         <p>Use the form below to send us a message:</p>
         <!-- Contact Form -->
         <form action="process_form.php" method="post">
