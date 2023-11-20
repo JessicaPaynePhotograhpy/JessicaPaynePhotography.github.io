@@ -28,7 +28,7 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 0.8em; /* Reduced padding for the tabs */
-    margin: 0 2em; /* Adjusted margin to reduce space between tabs */
+    margin: 0 6em; /* Adjusted margin to reduce space between tabs */
 }
 
 /* Dropdown styles */
@@ -73,7 +73,7 @@ section {
 }
 
 section #contact {
-    padding: 2em 6em 4em 6em;
+    padding: 2em 6em 7em 6em;
 }
 
 footer {
