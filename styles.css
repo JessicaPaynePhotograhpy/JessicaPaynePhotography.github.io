@@ -16,7 +16,7 @@ header {
 
 nav {
     background-color: #4a4a4a;
-    padding: 0.5em 3em .05em 3em;
+    padding: 0.5em;
     text-align: center;
     display: flex;
     justify-content: space-between; /* Space the links evenly */
@@ -28,7 +28,7 @@ nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 0.8em; /* Reduced padding for the tabs */
-    margin: 0 0.2em; /* Adjusted margin to reduce space between tabs */
+    margin: 0 2em; /* Adjusted margin to reduce space between tabs */
 }
 
 /* Dropdown styles */
