@@ -112,6 +112,17 @@ button:hover {
     background-color: #357ebd;
 }
 
+.portfolio-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns */
+    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px; /* Add a max-width to prevent the photo from stretching too wide */
+    margin: 0; /* Remove the margin to prevent any unwanted spacing */
+    padding: 20px;
+}
+
 /* Card styles */
 
 .category-cards {
