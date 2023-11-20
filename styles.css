@@ -117,7 +117,7 @@ button:hover {
 }
 
 .category-card {
-    width: 300px;
+    flex: 0 1 calc(33.333% - 40px); /* Adjust the width and margin accordingly */
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
