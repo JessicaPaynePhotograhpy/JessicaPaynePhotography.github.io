@@ -111,24 +111,19 @@ button:hover {
 /* Other styles */
 
 .category-cards {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width accordingly */
+    gap: 20px;
     justify-content: space-around;
 }
 
 .category-card {
-    flex: 0 1 calc(33.333% - 40px); /* Adjust the width and margin accordingly */
-    margin: 20px;
+    width: 100%;
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s ease;
-}
-
-/* Add a margin to the bottom of each card to prevent overlap */
-.category-card:not(:last-child) {
-    margin-bottom: 20px;
 }
 
 .category-card:hover {
@@ -144,4 +139,9 @@ button:hover {
     width: 100%;
     height: auto;
     border-radius: 4px;
+}
+
+/* Add a margin to the bottom of each card to prevent overlap */
+.category-card:not(:last-child) {
+    margin-bottom: 20px;
 }
