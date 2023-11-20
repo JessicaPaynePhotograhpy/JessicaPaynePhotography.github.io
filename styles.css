@@ -112,9 +112,10 @@ button:hover {
     background-color: #357ebd;
 }
 
+/* Define a generic class for the grid container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Three columns with minimum width of 300px */
+    grid-template-columns: repeat(3, minmax(0, 1fr)); /* Three columns with equal width */
     gap: 20px; /* Adjust the gap between photos */
 }
 
@@ -125,6 +126,14 @@ button:hover {
     border-radius: 8px; /* Add border radius for rounded corners */
     overflow: hidden; /* Hide overflowing content */
 }
+
+/* Clearfix to handle the floating elements within the sections */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 
 section#large-group {
