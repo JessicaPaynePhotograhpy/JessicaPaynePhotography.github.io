@@ -5,8 +5,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    margin-left: 20px; /* Add left margin */
-    margin-right: 20px; /* Add right margin */
+    padding-left: 40px; /* Add left margin */
+    padding-right: 40px; /* Add right margin */
 }
 
 header {
