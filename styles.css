@@ -123,6 +123,10 @@ button:hover {
     padding: 20px;
 }
 
+section#large-group {
+    padding: 2em 6em 7em 6em;
+}
+
 /* Card styles */
 
 .category-cards {
