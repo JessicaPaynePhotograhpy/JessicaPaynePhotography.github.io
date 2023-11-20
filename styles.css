@@ -69,14 +69,14 @@ nav .dropdown-content a {
 /* Other styles */
 
 section {
-    padding: 2em 6em 6em 6em;    
+    padding: 2em 6em 0em 6em;    
 }
 
 footer {
     background-color: #3d3d3d;
     color: #ffffff;
     text-align: center;
-    padding: 1em;
+    padding: 4em 3em 1em 3em;
     position: fixed;
     bottom: 0;
     width: 100%;
