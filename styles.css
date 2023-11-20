@@ -108,17 +108,19 @@ button:hover {
     background-color: #357ebd;
 }
 
-/* Other styles */
+/* Card styles */
 
 .category-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust the minimum and maximum width accordingly */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minimum and maximum width accordingly */
     gap: 20px;
     justify-content: space-around;
 }
 
 .category-card {
     width: 100%;
+    max-width: 300px; /* Add a max-width to prevent the card from stretching too wide */
+    margin: 0; /* Remove the margin to prevent any unwanted spacing */
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
