@@ -16,7 +16,7 @@ header {
 
 nav {
     background-color: #4a4a4a;
-    padding: 0.5em;
+    padding: 0.5em 3em 0.5em 3em;
     text-align: center;
     display: flex;
     justify-content: space-between; /* Space the links evenly */
@@ -72,11 +72,15 @@ section {
     padding: 2em 6em 0em 6em;    
 }
 
+section #contact {
+    padding: 2em 6em 4em 6em;
+}
+
 footer {
     background-color: #3d3d3d;
     color: #ffffff;
     text-align: center;
-    padding: 4em 3em 1em 3em;
+    padding: .5em 3em .5em 3em;
     position: fixed;
     bottom: 0;
     width: 100%;
