@@ -135,6 +135,7 @@ button:hover {
 .category-card h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .category-card img {
