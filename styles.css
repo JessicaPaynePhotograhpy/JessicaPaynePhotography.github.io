@@ -112,16 +112,20 @@ button:hover {
     background-color: #357ebd;
 }
 
-.portfolio-photos {
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns */
-    gap: 20px;
-    justify-content: space-around;
-    width: 100%;
-    max-width: 300px; /* Add a max-width to prevent the photo from stretching too wide */
-    margin: 0; /* Remove the margin to prevent any unwanted spacing */
-    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Three columns with minimum width of 300px */
+    gap: 20px; /* Adjust the gap between photos */
 }
+
+/* Style for each portfolio photo */
+.portfolio-photos {
+    width: 100%; /* Make each photo take the full width of its grid cell */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
 
 section#large-group {
     padding: 2em 6em 7em 6em;
