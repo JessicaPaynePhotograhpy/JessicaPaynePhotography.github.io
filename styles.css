@@ -52,6 +52,11 @@ nav .dropdown-content {
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
+nav .dropdown:hover .dropdown-content {
+    opacity: 1;
+    visibility: visible;
+}
+
 nav .dropdown-content a {
     color: #fff;
     padding: 12px 16px;
@@ -59,11 +64,6 @@ nav .dropdown-content a {
     display: block;
     text-align: center; /* Center the text within each link */
     flex: 1; /* Equal width for all links */
-}
-
-nav .dropdown:hover .dropdown-content {
-    opacity: 1;
-    visibility: visible;
 }
 
 /* Rest of your styles remain unchanged */
