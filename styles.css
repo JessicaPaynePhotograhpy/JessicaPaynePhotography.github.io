@@ -20,14 +20,15 @@ nav {
     text-align: center;
     display: flex;
     justify-content: space-between; /* Added to space the links evenly */
+    align-items: center; /* Center the links vertically */
     height: 50px; /* Set the fixed height */
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
-    padding: 1em;
-    margin: 0 0.5em;
+    padding: 0.8em; /* Reduced padding for the tabs */
+    margin: 0 0.2em; /* Adjusted margin to reduce space between tabs */
 }
 
 /* Dropdown styles */
@@ -118,22 +119,4 @@ button:hover {
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.category-card:hover {
-    transform: scale(1.05);
-}
-
-.category-card h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.category-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
+    box
