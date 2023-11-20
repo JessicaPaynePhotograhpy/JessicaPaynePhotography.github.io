@@ -42,8 +42,8 @@ nav .dropdown-content {
     position: absolute;
     background-color: #4a4a4a;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: -1;
-    top: 100%; /* Position the dropdown below the nav bar */
+    z-index: 1;
+    top: 50px; /* Position the dropdown below the nav bar */
     left: 0;
     width: 100%; /* Make the dropdown content full width */
     display: flex; /* Display the links horizontally */
