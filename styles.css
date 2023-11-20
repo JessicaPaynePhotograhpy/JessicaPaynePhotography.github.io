@@ -36,7 +36,8 @@ nav .dropdown {
 }
 
 nav .dropdown-content {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
     position: absolute;
     background-color: #4a4a4a;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -47,6 +48,7 @@ nav .dropdown-content {
     display: flex; /* Display the links horizontally */
     flex-wrap: wrap; /* Allow wrapping to the next line */
     justify-content: center; /* Center the links horizontally */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 nav .dropdown-content a {
@@ -59,7 +61,8 @@ nav .dropdown-content a {
 }
 
 nav .dropdown:hover .dropdown-content {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
 }
 
 /* Rest of your styles remain unchanged */
