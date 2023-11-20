@@ -19,7 +19,7 @@ nav {
     padding: 0.5em;
     text-align: center;
     display: flex;
-    justify-content: space-between; /* Added to space the links evenly */
+    justify-content: space-between; /* Space the links evenly */
     align-items: center; /* Center the links vertically */
     height: 50px; /* Set the fixed height */
 }
@@ -66,7 +66,7 @@ nav .dropdown-content a {
     flex: 1; /* Equal width for all links */
 }
 
-/* Rest of your styles remain unchanged */
+/* Other styles */
 
 section {
     padding: 2em;
@@ -119,4 +119,22 @@ button:hover {
     margin: 20px;
     padding: 20px;
     background-color: #ffffff;
-    box
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.category-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
