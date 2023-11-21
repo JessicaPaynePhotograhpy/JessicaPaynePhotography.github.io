@@ -29,6 +29,7 @@ nav a {
     text-decoration: none;
     padding: 0.8em; /* Reduced padding for the tabs */
     margin: 0 6em; /* Adjusted margin to reduce space between tabs */
+    cursor: pointer;
 }
 
 /* Dropdown styles */
@@ -158,6 +159,7 @@ section#large-group {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .category-card:hover {
